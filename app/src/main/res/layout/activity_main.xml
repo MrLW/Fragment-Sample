@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lw.fragment.MainActivity">
+
+    <Button
+        android:id="@+id/btn_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FragmentPager" />
+
+    <Button
+        android:id="@+id/btn_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="listview" />
+
+    <Button
+        android:id="@+id/btn_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="viewpager" />
+
+    <Button
+        android:id="@+id/back_stack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment回退栈示例" />
+    <Button
+        android:id="@+id/btn_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="横竖屏切换示例"
+        />
+</LinearLayout>
